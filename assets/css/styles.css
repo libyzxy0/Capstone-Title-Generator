@@ -38,11 +38,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .card h1 {
     color: white;
     font-family: 'Nunito', sans-serif;
     font-size: 23px;
+    text-align: center;
 }
 .buttons {
     width: 100%;
