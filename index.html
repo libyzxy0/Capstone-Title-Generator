@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A free Capstone title generator website for IT, CS, made by libyzxy0.">
+    <title>Capstone Title Generator</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+   <img id="sourcecode" class="github-icon" src="brand-github.svg" alt="Github-Icon"></img>
+   <div id="particles-js"></div>
+    <div class="content">
+    <div class="addNewModal" data-addnew-toggle>
+        <div id="particles-js-1"></div>
+        <h1 class="title">Add Title</h1>
+        <div class="card">
+            <form id="addNewForm">
+            <input type="text" name="addnew" id="addNewValue">
+            <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+    <h1 class="title">Capstone Title Generator</h1>
+    <div class="card">
+        <h1 id="txt">Loading contents...</h1>
+    </div>
+    <div class="buttons">
+        <button id="new">Add New</button>
+        <button id="generate">Generate</button>
+        <button id="copy">Copy</button>
+    </div>
+    <div class="copyright"><p>© Copyright 2023, <a href="https://liby0.vercel.app">libyzxy0</a> all rights reserved.</p></div>
+    </div>
+    <script>
+        document.getElementById('sourcecode').addEventListener('click', () => {
+    window.location.href='https://github.com/libyzxy0/Capstone-Title-Generator';
+})
+    </script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/lib/particles.js"></script>
+    <script src="./assets/lib/app.js"></script>
+</body>
+</html>
